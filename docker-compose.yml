@@ -1,0 +1,11 @@
+services:
+  web:
+    image: nginx
+    ports:
+      - "8080:80"
+  
+  app: 
+    image: tomcat
+    ports:
+      - "8888:8080"
+
